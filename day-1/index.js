@@ -54,8 +54,7 @@ app.get("/users", (req, res) => {
     res.send(users);
 });
 
-// Endpoint to fetch
- post data
+// Endpoint to fetch post data
 app.post("/users", (req, res) => {
     let user = req.body;
     console.log(user);
